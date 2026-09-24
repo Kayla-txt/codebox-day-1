@@ -1,0 +1,14 @@
+{
+  "name": "codebox-server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "token": "node scripts/generateToken.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
