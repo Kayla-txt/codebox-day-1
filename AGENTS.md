@@ -1,4 +1,4 @@
-# Meal Planner Project Standards
+# Project Standards
 
 ## Security
 
@@ -45,5 +45,4 @@
 
 - Check that `.env` and `node_modules/` are ignored.
 - Do not commit secrets.
-- Do not edit or commit anything in the Meal Planner folder.
 - Test the relevant API routes before committing.
