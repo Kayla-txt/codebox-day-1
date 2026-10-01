@@ -1,5 +1,5 @@
 {
-  "name": "codebox-server",
+  "name": "meal-planner-server",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
   "dependencies": {
     "dotenv": "^18.0.3",
     "express": "^5.1.0",
-    "jsonwebtoken": "^9.0.2"
+    "jsonwebtoken": "^9.0.2",
+    "@supabase/supabase-js": "^2.87.1"
   }
 }
