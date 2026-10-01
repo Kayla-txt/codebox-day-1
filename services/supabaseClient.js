@@ -11,4 +11,14 @@ if (!supabaseUrl || !supabasePublishableKey) {
 
 const supabase = createClient(supabaseUrl, supabasePublishableKey);
 
-module.exports = supabase;
+function createUserClient(accessToken) {
+  return createClient(supabaseUrl, supabasePublishableKey, {
+    global: {
+      headers: {
+        Authorization: `Bearer ${accessToken}`
+      }
+    }
+  });
+}
+
+module.exports = { createUserClient, supabase };

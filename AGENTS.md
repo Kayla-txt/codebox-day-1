@@ -1,4 +1,4 @@
-# CodeBox Project Standards
+# Meal Planner Project Standards
 
 ## Security
 
